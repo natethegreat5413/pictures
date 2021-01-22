@@ -4,10 +4,10 @@ This project was created using create-react-app. It's main purpose is for a user
 
 ## Technologies Used
 
-• React
-• Semantic-ui
-• CSS
-• Unsplash API
+- React
+- Semantic-ui
+- CSS
+- Unsplash API
 
 ## Skills Demonstrated
 
