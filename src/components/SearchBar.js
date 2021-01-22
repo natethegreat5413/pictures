@@ -8,6 +8,8 @@ class SearchBar extends Component {
 		e.preventDefault();
 
 		this.props.onSubmit(this.state.term);
+
+		// This resets the form back to empty
 		this.setState({ term: '' });
 	};
 
