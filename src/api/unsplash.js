@@ -1,3 +1,4 @@
+// extracts the api call into separate file.  Could've brought the whole axios call into this component
 import axios from 'axios';
 
 export default axios.create({

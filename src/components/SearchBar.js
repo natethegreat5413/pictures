@@ -6,7 +6,7 @@ class SearchBar extends Component {
 	//// FORM SUBMIT HANDLER ////
 	onFormSubmit = (e) => {
 		e.preventDefault();
-
+		// this grabs the axios call from the app function
 		this.props.onSubmit(this.state.term);
 
 		// This resets the form back to empty
